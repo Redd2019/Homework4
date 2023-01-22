@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
 
     }
 
@@ -64,6 +65,22 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + " лет, то он может кататься на аттракционе без сопровождения взрослого.");
         } else {
             System.out.println("Если возраст человека равен " + age + " лет, то он не может кататься без сопровождения взрослого.");
+        }
+    }
+
+    public static void task6() {
+        System.out.println("Задача 6");
+        int passengers = 55;
+        int capacity = 102;
+        int sitPlace = 60;
+        if (passengers <= capacity) {
+            if (passengers <= sitPlace) {
+                System.out.println("Сидячие места имеются в вагоне.");
+            }else {
+                System.out.println("Стоячие места имеются в вагоне.");
+            }
+        } else {
+            System.out.println("Мест нет.");
         }
     }
 }
