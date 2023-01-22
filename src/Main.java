@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
 
     }
 
@@ -81,6 +82,25 @@ public class Main {
             }
         } else {
             System.out.println("Мест нет.");
+        }
+    }
+
+    public static void task7() {
+        System.out.println("Задача 7");
+        int one = 10;
+        int two = 11;
+        int three = 8;
+
+        if (one >= two && one >= three) {
+            System.out.println("Первое число больше остальных");
+        }
+        if (two >= one && two >= three) {
+                System.out.println("Второе число больше остальных");
+        }
+        if (three >= one && three >= two) {
+                System.out.println("Третье число больше остальных");
+        } else {
+                System.out.println("");
         }
     }
 }
