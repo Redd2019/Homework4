@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
 
     }
 
@@ -22,6 +23,16 @@ public class Main {
             System.out.println("На улице " + temperature + " градуса, сегодня тепло, можно идти без шапки.");
         } else {
             System.out.println("На улице " + temperature + " градуса, сегодня холодно, нужно надеть шапку.");
+        }
+    }
+
+    public static void task3() {
+        System.out.println("Задача 3");
+        int speed = 75;
+        if (speed > 60) {
+            System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штраф!");
+        } else {
+            System.out.println("Если скорость " + speed + " км/ч, то можно ездить спокойно.");
         }
     }
 }
