@@ -19,9 +19,9 @@ public class Main {
         System.out.println("Задача 2");
         int temperature = 4;
         if (temperature > 5) {
-            System.out.println("Сегодня тепло, можно идти без шапки.");
+            System.out.println("На улице " + temperature + " градуса, сегодня тепло, можно идти без шапки.");
         } else {
-            System.out.println("На улице холодно, нужно надеть шапку.");
+            System.out.println("На улице " + temperature + " градуса, сегодня холодно, нужно надеть шапку.");
         }
     }
 }
